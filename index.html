@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Welcome to Hawaii</title>
+  </head>
+
+  <body>
+
+<!--Nav Bar-->
+    <div class="container">
+      <header class="page-header">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About Hawaii</a></li>
+          <li><a href="#">Photo Gallery</a></li>
+          <li><a href="#">Travel to Hawaii</a></li>
+        </ul
+      </header>
+    </div>
+
+<!--Gallery of Image-->
+  <div id="myCarousel" class="carousel slide jumbotron">
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/img01.jpg" alt="Photo of beach">
+        </div>
+        <div class="item">
+          <img src="img/img02.jpg" alt="Photo of coast">
+        </div>
+        <div class="item">
+          <img src="img/img03.jpg" alt="Photo of city">
+        </div>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" </span>
+    </a>
+  </div>
+
+
+<!--Columns on Page-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Nam tristique ligula in nibh viverra venenatis.</h3>
+          <p>Suspendisse pulvinar eros felis, at egestas est consequat quis. Integer vehicula venenatis lectus, eget elementum elit dignissim vel. Curabitur iaculis ullamcorper nibh, ac lacinia metus bibendum quis.</p>
+      </div>
+
+    <div class="col-sm-3">
+      <h3>Phasellus id tempus elit.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel euismod purus. Integer vitae purus mattis, sagittis enim ac, tempus quam. Phasellus porttitor finibus placerat. Quisque dui quam, scelerisque sit amet scelerisque sed, porttitor quis nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed risus sapien, sodales id ligula sed, venenatis placerat lacus.</p>
+    </div>
+
+    <div class="col-sm-3">
+      <h3>Sed sit amet odio justo.</h3>
+        <p>Quisque accumsan rhoncus sapien in consectetur. Maecenas vulputate rutrum purus vel dapibus. Aliquam elementum placerat ligula, porta sodales eros eleifend sit amet. Nulla rutrum non massa ac scelerisque. Suspendisse congue congue ultricies. Duis id nibh ac magna porta aliquet non sed magna. Ut ac leo id massa facilisis tincidunt. Integer porttitor libero nec nibh interdum sagittis. Duis eu lacinia metus.</p>
+    </div>
+
+    <div class="col-sm-3">
+      <h3>Id Tempus Odio</h3>
+        <p>Pellentesque et metus ante. Duis suscipit nisi ornare, sagittis mi eu, aliquam justo. Ut ultricies odio accumsan sem tempus, id tincidunt est euismod. Praesent laoreet ut orci vel tincidunt. Phasellus in libero nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et purus non est auctor dapibus in non tortor.</p>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

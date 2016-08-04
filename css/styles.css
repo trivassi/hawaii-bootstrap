@@ -1,0 +1,27 @@
+.jumbotron {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+body {
+	padding-top: 50px;
+}
+.container {
+	max-width: 1000px;
+  margin: 0 10% 0 10%;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.carousel-inner{
+   margin: 0 20% 0 20%;
+}
+.carousel-indicators .active {
+	background-color: #222;
+}
+
+.carousel-indicators li {
+	border-color: #222;
+}
